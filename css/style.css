@@ -1,0 +1,203 @@
+/* Change variables to change website theme*/
+body
+{
+	--PrimaryColor:#0e3e63;
+	--SecondaryColor1:#275273;
+	--SecondaryColor2:#325b7a;
+	--SecondaryColor3:#3e6582;
+}
+
+/*----------------------------   START NAVBAR   ------------------------*/
+
+.navbar-toggler {background-color: var(--PrimaryColor);}
+
+#banner-home
+{
+	background: url('../images/56854721563.jpg') no-repeat top center;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 500px;
+	position: relative;
+}
+
+#banner-about{
+	background: url('../images/3659874521.jpg') no-repeat top center;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 500px;
+	position: relative;
+}
+
+.navbar .navbar-nav a.active{background-color: var(--PrimaryColor);color: #ccc !important;border-radius: 3px;}
+
+.nav-link{color: #333 !important;}
+.nav-link:hover
+{
+	color: #ccc !important;
+	text-decoration: underline;
+	transition: 0.3s;
+}
+
+@media(max-width: 990px)
+{
+    .left-text{text-align: left !important;}
+}
+
+/*----------------------------   END NAVBAR   ------------------------*/
+
+/*----------------------------    START BANNER   ------------------------*/
+
+.text-1
+{
+	margin-top: 15%;
+	line-height: 1.5;
+}
+
+.text-2
+{
+	color: #faec92;
+	line-height: 1.5;
+}
+
+hr{border-color: #fff;width: 300px;}
+
+.layer
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	background-color: rgba(0,0,0,0.75);
+	text-align: center;
+}
+
+/*----------------------------    END BANNER   ------------------------*/
+
+
+/*----------------------------    START FEATURES   ------------------------*/
+
+#features li{text-align: justify; color: #fff;}
+.bg-blue-1{background-color: var(--PrimaryColor);}
+.bg-blue-2{background-color: var(--SecondaryColor1);}
+.bg-blue-3{background-color: var(--SecondaryColor2);}
+.bg-blue-4{background-color: var(--SecondaryColor3);}
+
+#features h4{color: #faec92}
+#features h6{color: #f5e01f}	
+
+/*----------------------------    END FEATURES   ------------------------*/
+
+/*----------------------------    START HISTORY   ------------------------*/
+
+#history
+{
+	background-color: var(--PrimaryColor);
+	color: #fff;
+}
+
+#history hr{border-color: #fff;}
+
+/*----------------------------    END HISTORY   ------------------------*/
+
+
+/*----------------    START WHAT IS WRONG WITH ....  -------------*/
+
+#what-is-wrong .right-area ol li
+{
+	margin-bottom: 30px;
+}
+
+#what-is-wrong h3
+{
+	background-color: var(--PrimaryColor);
+	color: #ccc;
+	border-radius: 3px;
+	padding: 0 5px;
+}
+
+/*----------------    End WHAT IS WRONG WITH ....  -------------*/
+
+
+/*---------------------    START Tuition   --------------------*/
+
+#banner-tuition
+{
+	background: url('../images/695320167.jpg') no-repeat top center;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 500px;
+	position: relative;
+}
+
+/*----------------    End Tuition ....  -------------*/
+
+
+/*---------------------    START Curriculum   --------------------*/
+#banner-curriculum
+{
+	background: url('../images/5322021459.jpg') no-repeat top center;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 600px;
+	position: relative;
+}
+
+/*---------------------    End Curriculum   --------------------*/
+
+/*---------------------    START CONTACT   --------------------*/
+#banner-contact
+{
+	background: url('../images/632695874.jpg') no-repeat top center;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 600px;
+	position: relative;
+}
+
+/*---------------------    END CONTACT   --------------------*/
+
+/*---------------------    START ENROLLMENT   --------------------*/
+#banner-enrollment
+{
+	background: url('../images/362532015.jpg') no-repeat top center;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 600px;
+	position: relative;
+}
+
+/*---------------------    END ENROLLMENT   --------------------*/
+
+
+/*----------------------------    START FOOTER   ------------------------*/
+
+#footer i{color: #faec92; transition: 0.4s;}
+#footer i:hover{color: #f5e01f}
+.shaping-text
+{
+	color: #faec92;
+}	
+.bg-footer{background-color: var(--PrimaryColor);color: #fff;}
+
+/*----------------------------    END FOOTER   ------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/* ---  My frameWork  --- */
+.border{border: 1px solid;}
+.font-40{font-size: 40px;}
+.bg-primary{background-color: var(--PrimaryColor) !important;color: #ccc;border-radius: 5px;padding: 5px;}
+.color-primary{color: var(--PrimaryColor) !important;}
+.w-fit{width: -webkit-fit-content;width: -moz-fit-content;width: fit-content;}
+.b-rad{border-radius: 5px;}
+/* ---------------------- */
